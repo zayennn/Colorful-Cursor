@@ -18,8 +18,8 @@ document.body.addEventListener('click', () => {
   app.tubes.setLightsColors(lightsColors)
 })
 
-function randomColors (count) {
-    return new Array(count)
-        .fill(0)
-        .map(() => "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0'))
+function randomColors(count) {
+  return new Array(count)
+    .fill(0)
+    .map(() => "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0'))
 }
